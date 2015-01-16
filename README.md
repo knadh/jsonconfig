@@ -37,7 +37,7 @@ Notice the comments
 </pre>
 
 ### Loading the configuration
-<pre>
+```go
 package main
 
 import (
@@ -70,4 +70,4 @@ func main() {
 		println("The module is", config.Module.Name, "on route", config.Module.Route)
 	}
 }
-</pre>
+```
