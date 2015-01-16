@@ -1,11 +1,8 @@
-/*
-	Kailash Nadh,
-	http://nadh.in/code/jsonconfig
-	Jan 2015
+// Package jsonconfig is a super tiny (pseudo) JSON configuration parser for Go with support for comments.
 
-	A super tiny (pseudo) JSON configuration parser for Go with
-	comment support
-*/
+// Kailash Nadh, http://nadh.in/code/jsonconfig
+// Jan 2015
+// MIT License
 
 package jsonconfig
 
