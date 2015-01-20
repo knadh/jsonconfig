@@ -23,13 +23,13 @@ Notice the comments
 	// url to the site
 	"url": "http://google.com",
 
-	"methods": ["GET", "POST"] // supported methods
+	"methods": ["GET", "POST"], // supported methods
 
 	"always_load": true,
 
 	// nested structure with different types
 	"module": {
-		"name": "Welcome"
+		"name": "Welcome",
 		"route": "/",
 		"port": 8080
 	}
