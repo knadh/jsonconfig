@@ -61,7 +61,7 @@ func main() {
 	}{}
 
 	// parse and load json config
-	err := jsonconfig.Load("sample.json", &config)
+	err := jsonconfig.Load("config.json", &config)
 
 	if err == nil {
 		println("The url is", config.Url)
