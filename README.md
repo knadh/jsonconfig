@@ -5,12 +5,9 @@ Kailash Nadh, January 2015
 MIT License
 
 ## What?
-jsconfig is a tiny JSON configuration file parser for Go lang with support for comments.
-Really, JSON spec doesn't include comments, but a configuration file without helpful
-comments is a pain to deal with.
+jsconfig is a tiny JSON configuration file parser for Go with support for comments. Really, JSON spec doesn't include comments, but a configuration file without helpful comments is a pain to deal with.
 
-Moreover, JSON for configuration files is extremely powerful when combined with structs,
-enabling to effortlessly load complex, nested data structures with Go's JSON Unmarshaling.
+Moreover, JSON for configuration files is powerful when combined with structs, enabling effortless loading of complex, nested data structures with Go's native JSON Unmarshaling.
 
 ## Installation (go 1.1+)
 `go get github.com/knadh/jsonconfig`
